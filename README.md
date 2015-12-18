@@ -7,13 +7,6 @@ License
 ---
 [Apache 2.0 license](http://www.apache.org/licenses/).
 
-Prerequesites
----
-* [Meson](https://mesonbuild.com) for building, Tested with 0.27
-* [binutils-gdb](https://www.gnu.org/software/binutils/) Tested with ToT from git repo
-* [Gcc](https://gcc.gnu.org/) Tested with 5.2
-* [qemu](http://wiki.qemu.org/Main_Page) Tested with 2.4.0.1
-
 Sources
 ---
 Get the sources for this project from github.
@@ -21,8 +14,8 @@ NOTE: this git repo uses submodules so use `git clone --recursive`
 ```
 mkdir -p ~/prgs
 cd ~/prgs
-git clone --recursive https://github.com/winksaville/sadie.git
-cd sadie
+git clone --recursive https://github.com/winksaville/baremetal-i386.git
+cd baremetal-i386
 ```
 Create cross-tool-chain
 ---
