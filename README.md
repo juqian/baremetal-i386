@@ -1,4 +1,4 @@
-# baremetal-i386`
+# baremetal-i386
 
 A a minimal bare metal program that runs on qemu-system-i386
 it outputs "OK\n" to a COM1 at 0x3f8
