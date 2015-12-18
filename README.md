@@ -27,16 +27,8 @@ cd sadie
 Create cross-tool-chain
 ---
 ```
-vendor-install-tools/install.py binutils-i586
-vendor-install-tools/install.py gcc-i586
-```
-Build sadie for ARM VersatilePB
----
-```
-mkdir -p ~/prgs/sadie/build-VersatilePB
-cd ~/prgs/sadie/build-VersatilePB
-meson -D Platform=VersatilePB --cross-file ../cross-file-VersatilePB --buildtype plain ..
-ninja
+vendor-install-tools/install.py binutils-i586-elf
+vendor-install-tools/install.py gcc-i586-elf
 ```
 Build and run
 ---
