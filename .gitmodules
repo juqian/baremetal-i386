@@ -1,0 +1,3 @@
+[submodule "vendor-install-tools"]
+	path = vendor-install-tools
+	url = https://github.com/winksaville/vendor-install-tools.git
